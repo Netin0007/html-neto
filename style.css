@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background: #292929;
+    color: white;
+    margin: auto;
+  }
+  img {
+    max-width: 100%;
+    margin: 0;
+  } 
+  #cabecalho {
+    background-color: rgb(7, 13, 120);
+    color: white;
+    margin-top: -26px;
+    margin-bottom: -9px;
+    margin-right: -11px;
+    margin-left: -13px;
+  }
+  a {
+    color: white;
+  }
+  #links {
+    background: rgb(7, 13, 120);
+    width: auto;
+    height: 170px;
+     margin-top: -19px;
+    margin-bottom: -29px;
+    margin-right: -11px;
+    margin-left: -1px;
+  }
+
+  body {
+    border: 5px solid #292929;
+  }
+  hr{
+    max-widht:120%;
+  }
+    .padding{
+    margen-left:20px;
+    }
+  #hr {
+    width: auto;
+    height: auto;
+  }
+  table,td,tr,th{
+      border: 0.3px solid blue;
+      border-collapse: collapse;
+      padding:10px 10px;
+      
+  }
+  td{
+      width: 200PX;
+  }
+  th:first-child, td:first-child {
+      background-color: red;
+      color: black;
+  }
+  tr:nth-child(1), tr:nth-child(4) {
+      background-color: red;
+      color: black;
+  }
+  td{
+      text-align: center;
+  }
+  .table{
+    display:flex;
+    justify-content:center;
+  }
