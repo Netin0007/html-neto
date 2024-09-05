@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+.conteiner{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    width: 100vh;
+    height: 95vh;
+    margin: 0 auto;
+    left: 100px;
+    bottom: 100px;
+}
+.cards{
+    width: 150px;
+    position: relative;
+    box-shadow: 10px 20px 110px rgb(221, 220, 220);
+    transition: transform 3s ease;
+}
+.cards:hover{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+.cards:nth-child(1){
+    z-index: 0;
+    left: 100px;
+}
+.cards:nth-child(2){
+    z-index: 1;
+    top: 45px;
+}
+.cards:nth-child(3){
+    z-index: 2;
+    top: 95px;
+    right: 100px;
+}
+.cards:nth-child(4){
+    z-index: 3;
+    top: 145px;
+    right: 200px;
+}
+.cards:nth-child(5){
+    z-index: 4;
+    top: 195px;
+    right: 300px;
+}
